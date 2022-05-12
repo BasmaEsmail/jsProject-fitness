@@ -75,3 +75,16 @@ nav{
     cursor: pointer;
     text-align: center;
 }
+.search{
+    width:30%;
+    border: 1px grey solid;
+    outline: none;
+    height: 5vh;
+    margin-left: 1%;
+}
+.seIcon{
+background-color: #32a852;
+padding: 0.7%; 
+margin: 0;
+color: white;
+}
