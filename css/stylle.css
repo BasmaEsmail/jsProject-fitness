@@ -47,7 +47,7 @@ nav{
 
 
 input[type=text], input[type=password] {
-width: 100%;
+width: 80%;
 padding: 15px;
 margin: 5px 0 22px 0;
 display: inline-block;
@@ -87,7 +87,7 @@ width: 50%;
 /* Add padding to container elements */
 .container {
   padding: 103px 280px 105px 300px;
-background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/ambitious-creative-co-rick-barrett-g_bglWB48JA-unsplash.jpg');
+background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./img/ambitious-creative-co-rick-barrett-g_bglWB48JA-unsplash.jpg');
 background-size: contain;
 height: 100vh;
 
@@ -108,4 +108,17 @@ padding: 2% 0;
 }
 .ccc p{
   font-size: 20px;
+}
+
+.input-error span{
+  color: red;
+  position: absolute;
+  /* bottom: 12px; */
+  /* right: 17px; */
+  font-size: 14px;
+
+}
+
+#submitError{
+  color: red;
 }
