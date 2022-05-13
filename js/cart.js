@@ -1,11 +1,10 @@
 var ls=[];
-var removed=null;
 
-ls= JSON.parse(localStorage.getItem("myOrders"));
+ls= JSON.parse(localStorage.getItem("myOrders")) || JSON.parse(localStorage.getItem("ls")) ;
    
 
 var container= document.getElementById("container");
-
+window.onload=function(){
 for(var i =0;i<ls.length;i++)
 {
     
@@ -40,7 +39,10 @@ for(var i =0;i<ls.length;i++)
     container.appendChild(card)
     
 }
+}
 function removeFromCart(self){
     ls.pop();
-    console.log(ls)
+    localStorage.setItem("ls",JSON.stringify(ls));
+    localStorage.removeItem("myOrders");
+    location.assign("../cart.html")
 }
