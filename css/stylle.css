@@ -87,7 +87,7 @@ width: 50%;
 /* Add padding to container elements */
 .container {
   padding: 103px 280px 105px 300px;
-background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./img/ambitious-creative-co-rick-barrett-g_bglWB48JA-unsplash.jpg');
+background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/ambitious-creative-co-rick-barrett-g_bglWB48JA-unsplash.jpg');
 background-size: contain;
 height: 100vh;
 
